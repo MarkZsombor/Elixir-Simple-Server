@@ -2,6 +2,10 @@
 
 A server built to learn HTTP basics in Elixir
 
+Get requests to /hello will return `world`
+Post requests to /post will be printed out to the terminal
+Any other requests will receive a 404
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
